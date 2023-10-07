@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/coworking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="148px"
+        android:layout_marginLeft="111px"
+        android:layout_marginRight="111px"
+        android:drawableTop="@drawable/df_icon"
+        android:fontFamily="sans-serif"
+        android:text="Cow-working"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/mobilemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="258px"
+        android:layout_marginLeft="24px"
+        android:text="Mobile and Email"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobilemail1"
+        android:layout_marginVertical="288px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="#ededed"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="368px"
+        android:layout_marginLeft="24px"
+        android:text="Password"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password1"
+        android:layout_marginTop="398px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="#ededed"
+        android:drawableRight="@drawable/eye_password_hide_svgrepo_com"/>
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="684px"
+        android:layout_marginRight="24px"
+        android:layout_marginLeft="24px"
+        android:text="Login"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="754px"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="New User? Create an account"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+</RelativeLayout>

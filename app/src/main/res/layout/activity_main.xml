@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/createaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="90px"
+        android:layout_marginRight="27px"
+        android:layout_marginLeft="27px"
+        android:fontFamily="sans-serif"
+        android:text="Create an account"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="168px"
+        android:layout_marginLeft="24px"
+        android:text="Full name"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="198px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="#ededed"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="278px"
+        android:layout_marginLeft="24px"
+        android:text="Mobile Number"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="308px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="#ededed"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="388px"
+        android:layout_marginLeft="24px"
+        android:text="Email ID"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="418px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="#ededed"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="684px"
+        android:layout_marginRight="24px"
+        android:layout_marginLeft="24px"
+        android:text="Create an Account"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Existing User? Log in"
+        android:layout_marginVertical="754px"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="14px"/>
+
+
+</RelativeLayout>

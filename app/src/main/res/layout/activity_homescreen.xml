@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".homescreen">
+
+    <TextView
+        android:id="@+id/coworking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="67px"
+        android:layout_marginLeft="49px"
+        android:drawableLeft="@drawable/df2"
+        android:fontFamily="sans-serif"
+        android:text="Cow-working"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50px"
+        android:layout_marginLeft="205px"
+        android:text="Book History"/>
+    <ImageView
+        android:layout_width="147px"
+        android:layout_height="147px"
+        android:src="@drawable/station"
+        android:layout_marginVertical="149px"
+        android:layout_marginLeft="25px"
+        />
+    <ImageView
+        android:layout_width="147px"
+        android:layout_height="147px"
+        android:src="@drawable/rectangle_57"
+        android:layout_marginVertical="149px"
+        android:layout_marginLeft="188px"
+        />
+    <ImageView
+        android:layout_width="147px"
+        android:layout_height="147px"
+        android:src="@drawable/baseline_people_outline_24"
+        android:layout_marginVertical="149px"
+        android:layout_marginLeft="188px"
+        />
+    <TextView
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="313px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="190px"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Book Work Station"
+        android:textColor="#000000"
+    <TextView
+        android:id="@+id/meet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="313px"
+        android:layout_marginLeft="215px"
+        android:layout_marginRight="60px"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Meeting Room"
+        android:textColor="#000000"
+</RelativeLayout>
